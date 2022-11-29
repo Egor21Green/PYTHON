@@ -1,9 +1,8 @@
-number = int(input('Введите число: '))
-summa = 0
+num = input('Введите число: ')
+sum = 0
 
-while number > 0:
-    digit = number % 10
-    summa = summa + digit
-    number = number // 10
+for i in num:
+    if i.isdigit():
+        sum += int(i)
 
-print('Сумма цифр числа - ', summa)
+print(sum)
