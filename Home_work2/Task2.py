@@ -1,9 +1,8 @@
-N = int(input('Введите число: '))
-i = 1
+num = int(input('Введите число: '))
+list = [1]
 
-while i < N:
-    multi = 1
-    multi = multi * i
-    print
+for i in range (1,num):
+    list.append ((i+1) * list [i-1])
 
+print(list)
 
