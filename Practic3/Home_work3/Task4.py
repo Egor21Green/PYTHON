@@ -5,3 +5,13 @@
 # - 45 -> 101101
 # - 3 -> 11
 # - 2 -> 10
+
+number = int(input("Введите число: "))
+french = ''
+
+while number > 0:
+    french = str(number % 2) + french
+    number = number // 2
+
+print(french)
+
