@@ -45,3 +45,4 @@ def create_lst(sp):
 k = int(input("Введите k: "))
 k_f =  create_rand_lst(k)
 create_file(create_lst(k_f))
+# polynomial.txt находится в корне репозитория
