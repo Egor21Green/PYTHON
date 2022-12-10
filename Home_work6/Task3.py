@@ -11,3 +11,5 @@ n = 100
 my_pi = sum(1/16**x*(4/(8*x + 1) - 2/(8*x + 4) - 1/(8*x + 5) - 1/(8*x + 6)) for x in range(n))
 print(F'Точность: {pi-my_pi}') 
 print(my_pi)   
+
+# Уже использовал list comprehension
